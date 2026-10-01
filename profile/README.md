@@ -12,7 +12,7 @@
 
 **Autorización explícita, por diseño.** Entre investigar y operar hay un paso que no automatizamos: el operador fija el alcance, activo por activo. GRIMZ actúa únicamente sobre ese alcance autorizado y registra la evidencia de cada acción de punta a punta.
 
-[Marco ético](https://no-do.dev/etica/) · [Términos](https://no-do.dev/terminos/) · [Privacidad](https://no-do.dev/privacidad/) · [Estado del servicio](https://no-do.dev/status/)
+[Marco ético](https://no-do.dev/etica/) · [Términos](https://no-do.dev/terminos/) · [Privacidad](https://no-do.dev/privacidad/) · [Estado del servicio](https://no-do.dev/status/) · [Divulgación responsable](https://github.com/no-do-dev/.github/blob/main/SECURITY.md)
 
 ---
 
