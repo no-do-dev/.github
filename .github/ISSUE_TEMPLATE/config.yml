@@ -1,0 +1,19 @@
+# NO-DO.DEV — configuración de issues a nivel de organización.
+# El código es propietario y privado: no hay issues de código. Todo se enruta fuera.
+blank_issues_enabled: false
+contact_links:
+  - name: Divulgación de seguridad · Security disclosure
+    url: https://github.com/no-do-dev/.github/blob/main/SECURITY.md
+    about: Vulnerabilidades por divulgación coordinada (acuse en 72 h, safe harbor). No abras un issue público.
+  - name: Estado del servicio · Service status
+    url: https://no-do.dev/status/
+    about: Disponibilidad e incidencias en vivo de no-do.dev, TRACEZ y GRIMZ.
+  - name: Soporte y FAQ · Support & FAQ
+    url: https://no-do.dev/faq/
+    about: Dudas de uso, cuenta y facturación. Soporte por contacto@no-do.dev.
+  - name: Negocio, empresa y DEEPWIRE · Business & DEEPWIRE
+    url: https://no-do.dev/sobre-nosotros/
+    about: Evaluación, enterprise y alta de DEEPWIRE (servicio, no self-serve) por contacto@no-do.dev.
+  - name: Uso indebido · Report misuse
+    url: https://no-do.dev/etica/
+    about: Marco ético y abuso de nuestros servicios.
