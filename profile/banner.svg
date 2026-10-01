@@ -55,5 +55,5 @@
   </g>
 
   <!-- discreet signature: product in production -->
-  <text class="mono" x="186" y="180" fill="#7d8a89" fill-opacity=".6" font-size="9.5" letter-spacing="2.2">EN PRODUCCIÓN · INFRAESTRUCTURA PROPIA · EU</text>
+  <text class="mono" x="186" y="180" fill="#7d8a89" font-size="9.5" letter-spacing="2.2">EN PRODUCCIÓN · INFRAESTRUCTURA PROPIA · EU</text>
 </svg>

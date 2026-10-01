@@ -1,21 +1,23 @@
-<img src="banner.svg?v=2" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
+<img src="banner.svg?v=3" alt="NO-DO.DEV — TRACEZ investiga. GRIMZ opera. Un solo núcleo." width="880">
 
-### La infraestructura común detrás de la investigación OSINT y las operaciones de pentesting autorizadas.
+### La infraestructura común detrás de la investigación OSINT/GEOINT y el pentesting autorizado.
 
-**NO-DO** construye y opera [**no-do.dev**](https://no-do.dev): dos consolas que cubren las dos fases del mismo trabajo, sobre una única base de cómputo en el edge, almacenamiento y autenticación compartidos.
+**NO-DO** construye y opera [**no-do.dev**](https://no-do.dev): un mismo núcleo —cómputo en el edge, almacenamiento y autenticación compartidos— y tres consolas que recorren el trabajo de principio a fin, de la pregunta a la operación con evidencia.
 
-| Consola | Qué resuelve | Estado |
-| :--- | :--- | :--- |
-| **[TRACEZ](https://tracez.no-do.dev)**<br>`Fase 01 · Investigación` | Graph analytics y GEOINT multi-fuente: entidades, transforms automatizados, geolocalización, timeline y panel en vivo con imagen satelital NASA GIBS. | **Beta pública** |
-| **[GRIMZ](https://grimz.no-do.dev)**<br>`Fase 03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. | **Enterprise** |
-| **DEEPWIRE**<br>`Fase 02 · Enlace` | Une investigación y operación en una única consola, conservando la autorización explícita por objetivo. | **En construcción** |
+| Consola | Fase | Qué resuelve | Estado |
+| :--- | :--- | :--- | :--- |
+| **[TRACEZ](https://tracez.no-do.dev)** | `01 · Investigación` | Graph analytics y GEOINT multi-fuente: entidades, transforms automatizados, geolocalización, timeline y panel en vivo con imagen satelital NASA GIBS. | **Beta pública** |
+| **[DEEPWIRE](https://no-do.dev/deepwire/)** | `02 · Enlace` | Une investigación y operación en una sola consola conservando la autorización explícita por objetivo. Servicio gestionado, no autoservicio. | **En construcción** |
+| **[GRIMZ](https://grimz.no-do.dev)** | `03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. | **Enterprise** |
 
-**Autorización explícita, por diseño.** Entre investigar y operar hay un paso que no automatizamos: el operador fija el alcance, activo por activo. GRIMZ actúa únicamente sobre ese alcance autorizado y registra la evidencia de cada acción de punta a punta.
+**Autorización explícita, por diseño.** Entre investigar y operar hay un paso que no automatizamos: el operador fija el alcance, activo por activo. GRIMZ actúa únicamente sobre ese alcance autorizado y registra la evidencia de cada acción, de punta a punta. No damos soporte a intrusión no autorizada y no es una herramienta para acoso, doxxing ni vigilancia de personas.
 
-[Marco ético](https://no-do.dev/etica/) · [Términos](https://no-do.dev/terminos/) · [Privacidad](https://no-do.dev/privacidad/) · [Estado del servicio](https://no-do.dev/status/) · [Divulgación responsable](https://github.com/no-do-dev/.github/blob/main/SECURITY.md)
+[Marco ético](https://no-do.dev/etica/) · [Términos](https://no-do.dev/terminos/) · [Privacidad](https://no-do.dev/privacidad/) · [Estado del servicio](https://no-do.dev/status/) · [FAQ](https://no-do.dev/faq/) · [Divulgación responsable](https://github.com/no-do-dev/.github/blob/main/SECURITY.md)
 
 ---
 
-El código de nuestras plataformas es propietario y vive en repositorios privados: producto en producción, no demos.
+El código de nuestras plataformas es propietario y vive en repositorios privados: producto en producción, no demos. DEEPWIRE es un servicio gestionado; el alta se coordina en [no-do.dev/deepwire](https://no-do.dev/deepwire/) o escribiendo a **contacto@no-do.dev**.
 
-**[→ no-do.dev](https://no-do.dev)** · [Abrir TRACEZ](https://tracez.no-do.dev) · [Abrir GRIMZ](https://grimz.no-do.dev) · [FAQ](https://no-do.dev/faq/) · [Sobre nosotros](https://no-do.dev/sobre-nosotros/)
+**EN** · Shared infrastructure for OSINT/GEOINT research and authorized pentesting. TRACEZ investigates, GRIMZ operates, DEEPWIRE links the two under explicit per-target authorization. Proprietary product in production — not demos. English site at [no-do.dev/en/](https://no-do.dev/en/).
+
+**[→ no-do.dev](https://no-do.dev)** · [Abrir TRACEZ](https://tracez.no-do.dev) · [Abrir GRIMZ](https://grimz.no-do.dev) · [Sobre nosotros](https://no-do.dev/sobre-nosotros/)
