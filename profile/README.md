@@ -2,12 +2,13 @@
 
 ### La infraestructura común detrás de la investigación OSINT/GEOINT y el pentesting autorizado.
 
-**NO-DO** construye y opera [**no-do.dev**](https://no-do.dev): un mismo núcleo —cómputo en el edge, almacenamiento y autenticación compartidos— y dos consolas que recorren el trabajo de principio a fin, de la pregunta a la operación con evidencia.
+**NO-DO** construye y opera [**no-do.dev**](https://no-do.dev): un mismo núcleo —cómputo en el edge, almacenamiento y autenticación compartidos—, dos consolas que recorren el trabajo de la pregunta a la operación, y un verificador público para entregar el resultado firmado.
 
-| Consola | Fase | Qué resuelve | Estado |
+| Producto | Fase | Qué resuelve | Estado |
 | :--- | :--- | :--- | :--- |
 | **[TRACEZ](https://tracez.no-do.dev)** | `01 · Investigación` | Graph analytics y GEOINT multi-fuente: entidades, transforms automatizados, geolocalización, timeline y panel en vivo con imagen satelital NASA GIBS. | **Beta pública** |
-| **[GRIMZ](https://grimz.no-do.dev)** | `03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. | **Enterprise** |
+| **[GRIMZ](https://grimz.no-do.dev)** | `03 · Operación` | Superficie de ataque en tiempo real, escaneo `nmap` integrado, exploits priorizados por CVE e integración con Metasploit. | **Self-hosted** |
+| **[ATTEST](https://verify.no-do.dev)** | `04 · Atestación` | Firma el caso con Ed25519 y sello de tiempo RFC 3161 y lo entrega como dossier que un tercero verifica sin cuenta y sin fiarse del emisor. | **En línea** |
 
 **Autorización explícita, por diseño.** Entre investigar y operar hay un paso que no automatizamos: el operador fija el alcance, activo por activo. GRIMZ actúa únicamente sobre ese alcance autorizado y registra la evidencia de cada acción, de punta a punta. No damos soporte a intrusión no autorizada y no es una herramienta para acoso, doxxing ni vigilancia de personas.
 
